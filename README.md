@@ -63,4 +63,5 @@ apt update && apt upgrade -y && apt install build-essential -y && apt-get instal
 ✅ XRAY VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ XRAY TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ SUPPORT MULTIPATH XRAY VLESS, VMESS & SSH
+✅ NOOBSVPN 8080/8443<br>
 <br>
