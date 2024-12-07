@@ -14,12 +14,12 @@ ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
 author=$(cat /etc/profil)
 DATE2=$(date -R | cut -d " " -f -5)
-Exp2=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $MYIP | awk '{print $3}')
+Exp2=$(curl -sS https://reg.malayaacx.my.id/ip | grep $MYIP | awk '{print $3}')
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/king-vpn/permission/main/ip"
+data_ip="https://reg.malayaacx.my.id/ip"
 checking_sc() {
 useexp=$(curl -sS $data_ip | grep $MYIP | awk '{print $3}')
 if [[ $date_list < $useexp ]]; then
@@ -216,9 +216,9 @@ if [[ -e /etc/github/api ]]; then
 m-ip
 else
 mkdir /etc/github
-echo "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" > /etc/github/api
-echo "hannaugo@gmail.com" > /etc/github/email
-echo "king-vpn" > /etc/github/username
+echo "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" > /etc/github/api
+echo "zulfadlizulkifli10@yahoo.com" > /etc/github/email
+echo "malayaacx01" > /etc/github/username
 m-ip
 fi
 }
@@ -412,7 +412,7 @@ menu
 function updatews(){
 cd
 rm -rf *
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/m-update.sh
+wget https://scvpsv2.malayaacx.my.id/m-update.sh
 clear
 chmod +x m-update.sh && ./m-update.sh
 }
