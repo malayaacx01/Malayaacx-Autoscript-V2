@@ -2,7 +2,7 @@
 function CEKIP () {
 ipsaya=$(wget -qO- ifconfig.me)
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://reg.malayaacx.my.id/ip | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Casper2
