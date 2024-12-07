@@ -80,9 +80,9 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/api > /etc/github/api
-curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/email > /etc/github/email
-curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/username > /etc/github/username
+wget -N https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/api > /etc/github/api
+wget -N https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/email > /etc/github/email
+wget -N https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/username > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
