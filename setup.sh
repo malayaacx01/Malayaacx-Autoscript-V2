@@ -94,18 +94,6 @@ res1() {
 wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
-res2() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
-clear
-}
-res3() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
-clear
-}
-res4() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
-clear
-}
 clear
 cd
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
