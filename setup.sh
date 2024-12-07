@@ -80,9 +80,9 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/pkCp1LzH > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/api > /etc/github/api
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/email > /etc/github/email
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/username > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -90,7 +90,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "1 days" +"%Y-%m-%d")
 mkdir /root/casper
 cd /root/casper
-wget https://raw.githubusercontent.com/king-vpn/permission/main/ip >/dev/null 2>&1
+wget https://reg.malayaacx.my.id/ip >/dev/null 2>&1
 echo "### $author $hhari $MYIP @trial" >> ipmini
 sleep 1
 rm -rf .git
@@ -100,8 +100,8 @@ git init >/dev/null 2>&1
 git add ipmini 
 git commit -m register >/dev/null 2>&1
 git branch -M main >/dev/null 2>&1
-git remote add origin https://github.com/${USERGIT}/permission >/dev/null 2>&1
-git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
+git remote add origin https://github.com/${USERGIT}/reg >/dev/null 2>&1
+git push -f https://${APIGIT}@github.com/${USERGIT}/reg >/dev/null 2>&1
 sleep 1
 rm -rf /root/rmbl
 rm -rf /etc/github
@@ -119,19 +119,19 @@ if [ -z $kode ]; then
 echo -e "KODE SALAH SILAHKAN MASUKKAN ULANG KODENYA"
 key2
 fi
-LIST=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $2}')
-Key=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $3}')
-KEY2=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $4}')
-ADMIN=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $5}')
-TOTALIP=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $6}')
+LIST=$(curl -sS https://reg.malayaacx.my.id/key| grep $kode | awk '{print $2}')
+Key=$(curl -sS https://reg.malayaacx.my.id/key| grep $kode | awk '{print $3}')
+KEY2=$(curl -sS https://reg.malayaacx.my.id/key| grep $kode | awk '{print $4}')
+ADMIN=$(curl -sS https://reg.malayaacx.my.id/key| grep $kode | awk '{print $5}')
+TOTALIP=$(curl -sS https://reg.malayaacx.my.id/key| grep $kode | awk '{print $6}')
 cd
 if [[ $kode == "RMBLVIP" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/api > /etc/github/api
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/email > /etc/github/email
+curl -s https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/Git%20-%20Server/username > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -139,7 +139,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "30 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/king-vpn/permission/main/ip >/dev/null 2>&1
+wget https://reg.malayaacx.my.id/ip >/dev/null 2>&1
 
 echo "### $author $hhari $MYIP @RMBL" >> ipmini
 
@@ -151,8 +151,8 @@ git init >/dev/null 2>&1
 git add ipmini 
 git commit -m register >/dev/null 2>&1
 git branch -M main >/dev/null 2>&1
-git remote add origin https://github.com/${USERGIT}/permission >/dev/null 2>&1
-git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
+git remote add origin https://github.com/${USERGIT}/reg >/dev/null 2>&1
+git push -f https://${APIGIT}@github.com/${USERGIT}/reg >/dev/null 2>&1
 sleep 0.5
 rm ipmini
 elif [[ $kode == "SFVTVIP" ]]; then
@@ -304,19 +304,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
-clear
-}
-res2() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
-clear
-}
-res3() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
-clear
-}
-res4() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
+wget https://scvpsv2.malayaacx.my.id/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 clear
@@ -336,7 +324,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37m TUNNEL STORES                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37m MALAYAACX01 - SHOP                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
@@ -407,126 +395,6 @@ echo "$dn1" > /root/subdomainx
 cd
 sleep 1
 fun_bar 'res1'
-clear
-rm /root/subdomainx
-elif [[ $domain2 == "2" ]]; then
-clear
-echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.vpnvip.app         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
-echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-echo " "
-until [[ $dn2 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
-read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn2
-done
-rm -rf /etc/xray
-rm -rf /etc/v2ray
-rm -rf /etc/nsdomain
-rm -rf /etc/per
-mkdir -p /etc/xray
-mkdir -p /etc/v2ray
-mkdir -p /etc/nsdomain
-mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
-touch /etc/xray/domain
-touch /etc/v2ray/domain
-touch /etc/xray/slwdomain
-touch /etc/v2ray/scdomain
-echo "$dn2" > /root/subdomainx
-cd
-sleep 1
-fun_bar 'res2'
-clear
-rm /root/subdomainx
-elif [[ $domain2 == "3" ]]; then
-clear
-echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.slowapp.cfd        ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
-echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-echo " "
-until [[ $dn3 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
-read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn3
-done
-rm -rf /etc/xray
-rm -rf /etc/v2ray
-rm -rf /etc/nsdomain
-rm -rf /etc/per
-mkdir -p /etc/xray
-mkdir -p /etc/v2ray
-mkdir -p /etc/nsdomain
-mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
-touch /etc/xray/domain
-touch /etc/v2ray/domain
-touch /etc/xray/slwdomain
-touch /etc/v2ray/scdomain
-echo "$dn3" > /root/subdomainx
-cd
-sleep 1
-fun_bar 'res3'
-clear
-rm /root/subdomainx
-elif [[ $domain2 == "4" ]]; then
-clear
-echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.slowapp.dev        ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
-echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-echo " "
-until [[ $dn4 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
-read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn4
-done
-rm -rf /etc/xray
-rm -rf /etc/v2ray
-rm -rf /etc/nsdomain
-rm -rf /etc/per
-mkdir -p /etc/xray
-mkdir -p /etc/v2ray
-mkdir -p /etc/nsdomain
-mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
-touch /etc/xray/domain
-touch /etc/v2ray/domain
-touch /etc/xray/slwdomain
-touch /etc/v2ray/scdomain
-echo "$dn4" > /root/subdomainx
-cd
-sleep 1
-fun_bar 'res4'
-clear
-rm /root/subdomainx
-elif [[ $domain2 == "5" ]]; then
-clear
-echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.vipnvip.tech       ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
-echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-echo " "
-until [[ $dn4 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
-read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn5
-done
-rm -rf /etc/xray
-rm -rf /etc/v2ray
-rm -rf /etc/nsdomain
-rm -rf /etc/per
-mkdir -p /etc/xray
-mkdir -p /etc/v2ray
-mkdir -p /etc/nsdomain
-mkdir -p /etc/per
-touch /etc/per/id
-touch /etc/per/token
-touch /etc/xray/domain
-touch /etc/v2ray/domain
-touch /etc/xray/slwdomain
-touch /etc/v2ray/scdomain
-echo "$dn5" > /root/subdomainx
-cd
-sleep 1
-fun_bar 'res5'
 fi
 if [[ $domain == "3" ]]; then
 clear
@@ -621,7 +489,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/tools.sh &> /dev/null
+wget https://scvpsv2.malayaacx.my.id/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -635,56 +503,56 @@ function Casper3(){
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}  PROCESS INSTALLED SSH & OVVPN         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://scvpsv2.malayaacx.my.id/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}       PROCESS INSTALLED XRAY           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://scvpsv2.malayaacx.my.id/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED WEBSOCKET SSH   ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://scvpsv2.malayaacx.my.id/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED BACKUP MENU     ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://scvpsv2.malayaacx.my.id/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          PROCESS INSTALLED OHP         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://scvpsv2.malayaacx.my.id/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD EXTRA MENU           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/update.sh && chmod +x update.sh && ./update.sh
+wget https://scvpsv2.malayaacx.my.id/update.sh && chmod +x update.sh && ./update.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}           DOWNLOAD SLOW DNS            ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD UDP COSTUM           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
+wget https://scvpsv2.malayaacx.my.id/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED NOOBZVPNS         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/noobz/noobzvpns.zip
+wget https://scvpsv2.malayaacx.my.id/noobz/noobzvpns.zip
 unzip noobzvpns.zip
 chmod +x noobzvpns/*
 cd noobzvpns
@@ -696,13 +564,13 @@ clear
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED LIMIT XRAY        ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://scvpsv2.malayaacx.my.id/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED TROJAN-GO         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
+wget https://scvpsv2.malayaacx.my.id/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
 clear
 }
 
@@ -719,11 +587,11 @@ TIME=$(date '+%d %b %Y')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://reg.malayaacx.my.id/ip | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
-USRSC=$(wget -qO- https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://reg.malayaacx.my.id/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://reg.malayaacx.my.id/ip | grep $ipsaya | awk '{print $3}')
 TEXT="
 <code>🧿───────────────────🧿</code>
 <b> INSTALL AUTOSCRIPT PREMIUM</b>
@@ -734,7 +602,7 @@ TEXT="
 <code>ISP  : </code><code>$ISP</code>
 <code>🧿───────────────────🧿</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/masansor"},{"text":"JOIN","url":"https://t.me/aiyavpnstore"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/malayaacx_2601"},{"text":"JOIN","url":"https://t.me/+-QOgTTnwydw4MzE1"}]]}'
 
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
@@ -763,7 +631,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/versi  )
+serverV=$( curl -sS https://scvpsv2.malayaacx.my.id/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
