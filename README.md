@@ -51,7 +51,7 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
 ♦️ Installation Link <br>
 
   ```html
-apt update && apt upgrade -y && apt install build-essential -y && apt-get install -y jq && apt-get install shc && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/setup.sh && chmod +x setup.sh && ./setup.sh
+apt update && apt upgrade -y && apt install build-essential -y && apt-get install -y jq && apt-get install shc && apt install -y bzip2 gzip coreutils screen curl && wget -N https://scvpsv2.malayaacx.my.id/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
 <b>
 
