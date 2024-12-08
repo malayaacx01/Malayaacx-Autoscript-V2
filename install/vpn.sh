@@ -9,7 +9,7 @@ MYIP2="s/xxxxxxxxx/$domain/g";
 function ovpn_install() {
     rm -rf /etc/openvpn
     mkdir -p /etc/openvpn
-    wget -O /etc/openvpn/vpn.zip "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/vpn.zip" >/dev/null 2>&1 
+    wget -O /etc/openvpn/vpn.zip "https://scvpsv2.malayaacx.my.id/install/vpn.zip" >/dev/null 2>&1 
     unzip -d /etc/openvpn/ /etc/openvpn/vpn.zip
     rm -f /etc/openvpn/vpn.zip
     chown -R root:root /etc/openvpn/server/easy-rsa/
