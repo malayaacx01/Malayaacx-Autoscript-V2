@@ -119,7 +119,7 @@ fun_bar() {
 }
 res1() {
     
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu "https://scvpsv2.malayaacx.my.id/menu/menu.sh" && chmod +x /usr/bin/menu
 wget -q -O /usr/bin/m-trgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-trgo.sh" && chmod +x /usr/bin/m-trgo
 wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/restore.sh" && chmod +x /usr/bin/restore
 wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/backup.sh" && chmod +x /usr/bin/backup
@@ -134,7 +134,7 @@ wget -q -O /usr/bin/m-vless "https://raw.githubusercontent.com/king-vpn/autoscri
 wget -q -O /usr/bin/m-trojan "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-trojan.sh" && chmod +x /usr/bin/m-trojan
 wget -q -O /usr/bin/m-system "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-system.sh" && chmod +x /usr/bin/m-system
 wget -q -O /usr/bin/m-sshovpn "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-sshovpn.sh" && chmod +x /usr/bin/m-sshovpn
-wget -q -O /usr/bin/running "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/running.sh" && chmod +x /usr/bin/running
+wget -q -O /usr/bin/running "https://scvpsv2.malayaacx.my.id/menu/running.sh" && chmod +x /usr/bin/running
 wget -q -O /usr/bin/m-backup "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-backup.sh" && chmod +x /usr/bin/m-backup
 wget -q -O /usr/bin/speedtest "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/speedtest_cli.py" && chmod +x /usr/bin/speedtest
 wget -q -O /usr/bin/bckpbot "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/bckpbot.sh" && chmod +x /usr/bin/bckpbot
