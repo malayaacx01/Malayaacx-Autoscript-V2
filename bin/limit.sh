@@ -1,4 +1,4 @@
-REPO="https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bin/"
+REPO="https://scvpsv2.malayaacx.my.id/bin/"
 wget -q -O /etc/systemd/system/limitvmess.service "${REPO}limitvmess.service" && chmod +x limitvmess.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limitvless.service "${REPO}limitvless.service" && chmod +x limitvless.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limittrojan.service "${REPO}limittrojan.service" && chmod +x limittrojan.service >/dev/null 2>&1
