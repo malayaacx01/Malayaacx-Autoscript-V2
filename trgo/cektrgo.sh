@@ -1,5 +1,5 @@
 #!/bin/bash
-# SL
+# MALAYAACX01 - SHOP
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -61,6 +61,6 @@ oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "other";
 echo "$oth";
 echo "------------------------------------";
-echo "Script Mod By SL"
+echo "Script Mod By Malayaacx01 - Shop"
 rm -rf /tmp/other.txt
 
