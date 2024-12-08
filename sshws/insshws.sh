@@ -2,16 +2,16 @@
 # Proxy For Edukasi & Imclass
 
 # Link Hosting Kalian
-SFVPN="https://raw.githubusercontent.com/litfina/autoscript-vip/main/install"
+SFVPN="https://scvpsv2.malayaacx.my.id/install"
 
-wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/litfina/autoscript-vip/main/sshws/ws-dropbear
+wget -O /usr/local/bin/ws-dropbear https://scvpsv2.malayaacx.my.id/sshws/ws-dropbear
 chmod +x /usr/local/bin/ws-dropbear
 
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By SFVPNVPN 
-Documentation=https://t.me/abecasdee13
+Description=Python Proxy Mod By Malayaacx01 - Shop 
+Documentation=https://t.me/malayaacx_2601
 After=network.target nss-lookup.target
 
 [Service]
@@ -32,14 +32,14 @@ systemctl enable ws-dropbear.service
 systemctl start ws-dropbear.service
 systemctl restart ws-dropbear.service
 
-wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/litfina/autoscript-vip/main/sshws/ws-ovpn.py
+wget -O /usr/local/bin/ws-ovpn https://scvpsv2.malayaacx.my.id/sshws/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
-Description=Python Proxy Mod By SFVPN
-Documentation=https://t.me/abecasdee13
+Description=Python Proxy Mod By Malayaacx01 - Shop
+Documentation=https://t.me/malayaacx_2601
 After=network.target nss-lookup.target
 
 [Service]
@@ -59,14 +59,14 @@ systemctl daemon-reload
 systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
-wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/litfina/autoscript-vip/main/sshws/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://scvpsv2.malayaacx.my.id/sshws/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
-Description=Python Proxy Mod By SFVPN
-Documentation=https://t.me/abecasdee13
+Description=Python Proxy Mod By Malayaacx01 - Shop 
+Documentation=https://t.me/malayaacx_2601
 After=network.target nss-lookup.target
 
 [Service]
