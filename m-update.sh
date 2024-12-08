@@ -119,11 +119,11 @@ fun_bar() {
 }
 res1() {
     
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/m-trgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-trgo.sh" && chmod +x /usr/bin/m-trgo
-wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/restore.sh" && chmod +x /usr/bin/restore
-wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/backup.sh" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/addnoobz "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/addnoobz.sh" && chmod +x /usr/bin/addnoobz
+wget -q -O /usr/bin/menu "https://scvpsv2.malayaacx.my.id/menu/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/m-trgo "https://scvpsv2.malayaacx.my.id/menu/m-trgo.sh" && chmod +x /usr/bin/m-trgo
+wget -q -O /usr/bin/restore "https://scvpsv2.malayaacx.my.id/menu/restore.sh" && chmod +x /usr/bin/restore
+wget -q -O /usr/bin/backup "https://scvpsv2.malayaacx.my.id/menu/backup.sh" && chmod +x /usr/bin/backup
+wget -q -O /usr/bin/addnoobz "https://scvpsv2.malayaacx.my.id/bot/addnoobz.sh" && chmod +x /usr/bin/addnoobz
 wget -q -O /usr/bin/cek-noobz "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/cek-noobz.sh" && chmod +x /usr/bin/cek-noobz
 wget -q -O /usr/bin/m-noobz "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-noobz.sh" && chmod +x /usr/bin/m-noobz
 wget -q -O /usr/bin/m-ip "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-ip.sh" && chmod +x /usr/bin/m-ip
@@ -134,7 +134,7 @@ wget -q -O /usr/bin/m-vless "https://raw.githubusercontent.com/king-vpn/autoscri
 wget -q -O /usr/bin/m-trojan "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-trojan.sh" && chmod +x /usr/bin/m-trojan
 wget -q -O /usr/bin/m-system "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-system.sh" && chmod +x /usr/bin/m-system
 wget -q -O /usr/bin/m-sshovpn "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-sshovpn.sh" && chmod +x /usr/bin/m-sshovpn
-wget -q -O /usr/bin/running "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/running.sh" && chmod +x /usr/bin/running
+wget -q -O /usr/bin/running "https://scvpsv2.malayaacx.my.id/menu/running.sh" && chmod +x /usr/bin/running
 wget -q -O /usr/bin/m-backup "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/m-backup.sh" && chmod +x /usr/bin/m-backup
 wget -q -O /usr/bin/speedtest "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/speedtest_cli.py" && chmod +x /usr/bin/speedtest
 wget -q -O /usr/bin/bckpbot "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/bckpbot.sh" && chmod +x /usr/bin/bckpbot
@@ -145,8 +145,8 @@ wget -q -O /usr/bin/trialvmess "https://raw.githubusercontent.com/king-vpn/autos
 wget -q -O /usr/bin/trialvless "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/trialtrojan.sh" && chmod +x /usr/bin/trialtrojan
 wget -q -O /usr/bin/trialtrojan "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/trialvless.sh" && chmod +x /usr/bin/trialvless
 wget -q -O /usr/bin/trialssh "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/menu/trialssh.sh" && chmod +x /usr/bin/trialssh
-wget -q -O /usr/bin/autocpu "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/autocpu.sh" && chmod +x /usr/bin/autocpu
-wget -q -O /usr/bin/bantwidth "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/install/bantwidth" && chmod +x /usr/bin/bantwidth
+wget -q -O /usr/bin/autocpu "https://scvpsv2.malayaacx.my.id/install/autocpu.sh" && chmod +x /usr/bin/autocpu
+wget -q -O /usr/bin/bantwidth "https://scvpsv2.malayaacx.my.id/install/bantwidth" && chmod +x /usr/bin/bantwidth
 chmod +x menu
 chmod +x m-vmess
 chmod +x m-vless
