@@ -2,7 +2,7 @@
 function CEKIP () {
 ipsaya=$(wget -qO- ifconfig.me)
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/UnderTunnel/permission/main/ip | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://reg.malayaacx.my.id/ip | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Casper2
@@ -91,7 +91,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
+wget https://scvpsv2.malayaacx.my.id/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 clear
@@ -111,7 +111,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37m TUNNEL STORES                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37m MALAYAACX01 - SHOP                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
@@ -306,7 +306,7 @@ cd
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 clear
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/tools.sh &> /dev/null
+wget https://scvpsv2.malayaacx.my.id/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -320,56 +320,56 @@ function Casper3(){
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}  PROCESS INSTALLED SSH & OVVPN         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://scvpsv2.malayaacx.my.id/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}       PROCESS INSTALLED XRAY           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://scvpsv2.malayaacx.my.id/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED WEBSOCKET SSH   ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://scvpsv2.malayaacx.my.id/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}      PROCESS INSTALLED BACKUP MENU     ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://scvpsv2.malayaacx.my.id/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          PROCESS INSTALLED OHP         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://scvpsv2.malayaacx.my.id/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD EXTRA MENU           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/update.sh && chmod +x update.sh && ./update.sh
+wget https://scvpsv2.malayaacx.my.id/update.sh && chmod +x update.sh && ./update.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}           DOWNLOAD SLOW DNS            ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}          DOWNLOAD UDP COSTUM           ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
+wget https://scvpsv2.malayaacx.my.id/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED NOOBZVPNS         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/noobz/noobzvpns.zip
+wget https://scvpsv2.malayaacx.my.id/noobz/noobzvpns.zip
 unzip noobzvpns.zip
 chmod +x noobzvpns/*
 cd noobzvpns
@@ -381,13 +381,13 @@ clear
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED LIMIT XRAY        ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/bin/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://scvpsv2.malayaacx.my.id/bin/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}    PROCESS INSTALLED TROJAN-GO         ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-wget https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
+wget https://scvpsv2.malayaacx.my.id/install/ins-trgo.sh && chmod +x ins-trgo.sh && ./ins-trgo.sh
 clear
 }
 
@@ -404,11 +404,11 @@ TIME=$(date '+%d %b %Y')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://raw.githubusercontent.com/UnderTunnel/permission/main/ip | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://reg.malayaacx.my.id/ip | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
-USRSC=$(wget -qO- https://raw.githubusercontent.com/UnderTunnel/permission/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/UnderTunnel/permission/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://reg.malayaacx.my.id/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://reg.malayaacx.my.id/ip | grep $ipsaya | awk '{print $3}')
 TEXT="
 <code>🧿───────────────────🧿</code>
 <b> INSTALL AUTOSCRIPT PREMIUM</b>
@@ -419,7 +419,7 @@ TEXT="
 <code>ISP  : </code><code>$ISP</code>
 <code>🧿───────────────────🧿</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/masansor"},{"text":"JOIN","url":"https://t.me/aiyavpnstore"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/malayaacx_2601"},{"text":"JOIN","url":"https://t.me/+-QOgTTnwydw4MzE1"}]]}'
 
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
@@ -448,7 +448,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/UnderTunnel/autoscript-vip/main/versi  )
+serverV=$( curl -sS https://scvpsv2.malayaacx.my.id/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
