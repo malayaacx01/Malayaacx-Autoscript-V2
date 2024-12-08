@@ -5,21 +5,21 @@ biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/king-vpn/permission/main/seler"
+data_ip="https://reg.malayaacx.my.id/seler"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
     echo -ne
   else
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-    echo -e "\033[42m           PANEL ADMIN VVIP                 \033[0m"
+    echo -e "\033[42m           PANEL ADMIN - MALAYAACX01 SHOP                 \033[0m"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e "            ${RED}DAFTAR DULU DEK !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "         \033[0;36mTelegram${NC} t.me/masansor"
-    echo -e "      ${GREEN}WhatsApp${NC} wa.me/+6281775700114"
+    echo -e "         \033[0;36mTelegram${NC} t.me/malayaacx_2601"
+    echo -e "      ${GREEN}WhatsApp${NC} wa.me/+601133202601"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 read -n 1 -s -r -p "  Press any key to back on menu"
 menu
@@ -27,7 +27,7 @@ menu
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/king-vpn/permission/main/"
+Repo1="https://reg.malayaacx.my.id/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
@@ -50,9 +50,9 @@ BGX="\033[42m"
 END='\e[0m'
 AKTIF="VERIFIED"
 TOKEN=$(cat /etc/github/api)
-REPO="https://github.com/king-vpn/permission.git"
+REPO="https://github.com/malayaacx01/reg.git"
 EMAIL=$(cat /etc/github/email)
-USER="king-vpn"
+USER="malayaacx01"
 
 
 add-ip() {
@@ -74,7 +74,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
     exit 0
     fi
     echo -e ""
-    read -p "Username (Contoh : Tunnel-Stores) : " name
+    read -p "Username (Contoh : Malayaacx01-VPN) : " name
     echo -e ""
     clear
     echo -e ""
@@ -115,8 +115,8 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/king-vpn/permission
-    git push -f https://${TOKEN}@github.com/king-vpn/permission.git &> /dev/null
+    git remote add origin https://github.com/malayaacx01/reg
+    git push -f https://${TOKEN}@github.com/malayaacx01/reg.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
@@ -139,7 +139,7 @@ TEXT="
 <i>Automatic Notification from Github</i>
 <code>🧿───────────────────🧿</code>
 <b>Klik To Create Link Instalaion</b>
-https://pastebin.com/raw/uxbRqC1K
+https://alist.malayaacx.my.id/d/Onedrive%20-%20Server/Files/install-Autoscript-VIP.txt
 "
 
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
@@ -191,8 +191,8 @@ TIMES="10"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/king-vpn/permission
-    git push -f https://${TOKEN}@github.com/king-vpn/permission.git &> /dev/null
+    git remote add origin https://github.com/malayaacx01/reg
+    git push -f https://${TOKEN}@github.com/malayaacx01/reg.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
@@ -251,8 +251,8 @@ TIMES="10"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/king-vpn/permission
-    git push -f https://${TOKEN}@github.com/king-vpn/permission.git &> /dev/null
+    git remote add origin https://github.com/malayaacx01/reg
+    git push -f https://${TOKEN}@github.com/malayaacx01/reg.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
@@ -283,7 +283,7 @@ menu
 
 clear
 echo -e "╭═════════════════════════════════════════════════╮"
-echo -e "   PANEL ADMIN VIP"
+echo -e "   PANEL ADMIN MALAYAACX01 - SHOP"
 echo -e "   Seler Name: $(cat /etc/profil)"
 echo -e "╰═════════════════════════════════════════════════╯"
 echo -e "│  ${grenbo}[1]$NC  ${YELL}Add IP VPS                                $NC│"     
