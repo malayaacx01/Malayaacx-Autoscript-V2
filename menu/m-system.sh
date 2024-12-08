@@ -56,18 +56,18 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
 tput cnorm
 }
 sldns() {
-wget https://raw.githubusercontent.com./king-vpn/autoscript/main/slowdns/ && chmod +x installsl.sh && ./installsl.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/ && chmod +x installsl.sh && ./installsl.sh
 }
 res1() {
-wget https://raw.githubusercontent.com./king-vpn/autoscript/main/slowdns/ && chmod +x rmbl.sh && ./rmbl.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/ && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com./king-vpn/autoscript/main/slowdns/ && chmod +x rmbl1.sh && ./rmbl1.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/ && chmod +x rmbl1.sh && ./rmbl1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com./king-vpn/autoscript/main/slowdns/ && chmod +x rmbl2.sh && ./rmbl2.sh
+wget https://scvpsv2.malayaacx.my.id/slowdns/ && chmod +x rmbl2.sh && ./rmbl2.sh
 clear
 }
 clear
@@ -847,7 +847,7 @@ read -p "   Please select numbers 1-3 or Any Button(BACK) : " dobot
 done
 if [[ $dobot == "1" ]]; then
 clear
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/dobot/install.sh &> /dev/null
+wget https://scvpsv2.malayaacx.my.id/dobot/install.sh &> /dev/null
 chmod +x install.sh
 bash install.sh
 rm -rf install.sh
