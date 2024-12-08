@@ -290,7 +290,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e " $COLOR1╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " $COLOR1│${NC} ${COLBG1}               ${WH} •  STORES  PREMIUM •             ${NC} $COLOR1│ $NC"
+echo -e " $COLOR1│${NC} ${COLBG1}               ${WH} •  MALAYAACX01 - SHOP PREMIUM •             ${NC} $COLOR1│ $NC"
 echo -e " $COLOR1╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " $COLOR1╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " $COLOR1│$NC${WH} ❈ OS            ${COLOR1}: ${WH}$MODEL2${NC}"
