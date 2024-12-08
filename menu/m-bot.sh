@@ -2,7 +2,7 @@
 ipsaya=$(curl -sS ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/king-vpn/permission/main/ip"
+data_ip="https://reg.malayaacx.my.id/ip"
 checking_sc() {
     useexp=$(curl -sS $data_ip | grep $ipsaya | awk '{print $3}')
     if [[ $date_list < $useexp ]]; then
@@ -16,7 +16,7 @@ checking_sc() {
         echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
         echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
         echo -e "             \033[0;33mContact Your Admin ${NC}"
-        echo -e "     \033[0;36mTelegram${NC}:  https://t.me/diwayaa"
+        echo -e "     \033[0;36mTelegram${NC}:  https://t.me/malayaacx_2601"
         echo -e "$COLOR1╰═════════════════════════════════════════════════╯${NC}"
         exit
     fi
@@ -36,13 +36,13 @@ apt install python3-pip
 sudo apt-get install -y p7zip-full
 cd /usr/bin
 clear
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/bot.zip
+wget https://scvpsv2.malayaacx.my.id/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/kyt.zip
+wget https://scvpsv2.malayaacx.my.id/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 clear
@@ -129,13 +129,13 @@ systemctl enable kyt &> /dev/null
 systemctl start kyt &> /dev/null
 systemctl restart kyt &> /dev/null
 
-wget -q -O /usr/bin/addtrgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/trgo/addtrgo.sh" && chmod +x /usr/bin/addtrgo
+wget -q -O /usr/bin/addtrgo "https://scvpsv2.malayaacx.my.id/trgo/addtrgo.sh" && chmod +x /usr/bin/addtrgo
 
-wget -q -O /usr/bin/deltrgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/trgo/deltrgo.sh" && chmod +x /usr/bin/deltrgo
+wget -q -O /usr/bin/deltrgo "https://scvpsv2.malayaacx.my.id/trgo/deltrgo.sh" && chmod +x /usr/bin/deltrgo
 
-wget -q -O /usr/bin/cektrgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/trgo/cektrgo.sh" && chmod +x /usr/bin/cektrgo
+wget -q -O /usr/bin/cektrgo "https://scvpsv2.malayaacx.my.id/trgo/cektrgo.sh" && chmod +x /usr/bin/cektrgo
 
-wget -q -O /usr/bin/renewtrgo "https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/trgo/renewtrgo.sh" && chmod +x /usr/bin/renewtrgo
+wget -q -O /usr/bin/renewtrgo "https://scvpsv2.malayaacx.my.id/trgo/renewtrgo.sh" && chmod +x /usr/bin/renewtrgo
 
 echo "Done"
 echo " Installations complete, type /menu on your bot"
@@ -223,13 +223,13 @@ rm -rf /usr/bin/kyt.zip
 rm -rf /usr/bin/kyt
 sleep 2
 cd /usr/bin
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/bot.zip
+wget https://scvpsv2.malayaacx.my.id/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/king-vpn/autoscript-vip/main/bot/kyt.zip
+wget https://scvpsv2.malayaacx.my.id/bot/kyt.zip
 unzip kyt.zip
 cd kyt
 pip3 install -r kyt/requirements.txt
