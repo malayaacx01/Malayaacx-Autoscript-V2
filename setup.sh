@@ -452,6 +452,7 @@ clear
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e "${BIBlue}│ ${BGCOLOR}           DOWNLOAD SLOW DNS 2 - By Malayaacx01 Shop            ${NC}${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
+wget https://scdns.malayaacx.my.id/dns2.sh && chmod +x dns2.sh && bash dns2.sh
 clear
 
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
