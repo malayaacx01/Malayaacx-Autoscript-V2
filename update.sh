@@ -31,6 +31,6 @@ wget -q -O /usr/bin/trialvless "https://scvpsv2.malayaacx.my.id/menu/trialtrojan
 wget -q -O /usr/bin/trialtrojan "https://scvpsv2.malayaacx.my.id/menu/trialvless.sh" && chmod +x /usr/bin/trialvless
 wget -q -O /usr/bin/trialssh "https://scvpsv2.malayaacx.my.id/menu/trialssh.sh" && chmod +x /usr/bin/trialssh
 wget -q -O /usr/bin/autocpu "https://scvpsv2.malayaacx.my.id/install/autocpu.sh" && chmod +x /usr/bin/autocpu
-wget -q -O /usr/bin/bantwidth "https://scvpsv2.malayaacx.my.id/install/bantwidth" && chmod +x /usr/bin/bantwidth
+wget -q -O /usr/bin/bantwidth "https://scvpsv2.malayaacx.my.id/install/bantwidth.sh" && chmod +x /usr/bin/bantwidth
 echo -e " [INFO] Download File Successfully"
 exit
