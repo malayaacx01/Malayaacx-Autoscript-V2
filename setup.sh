@@ -123,7 +123,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37m TUNNEL STORES                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37m Malayaacx01 - Shop                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
