@@ -53,11 +53,17 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
   ```html
 apt update && apt upgrade -y && apt install build-essential -y && apt-get install -y jq && apt-get install shc && apt install -y bzip2 gzip coreutils screen curl && wget -N https://scvpsv2.malayaacx.my.id/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
+♦️ Installation Link - Choose WARP IPv6 Only <br>
+
+  ```html
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh 6 && sleep 10 && bash warp o
+  ```
 <b>
 
 [ SERVICES ] <br>
 <br>
 ✅ SSH WEBSOCKET TLS & NON-TLS 443/80<br>
+✅ OPENVPN ONLY SUPPORT DEBIAN 10 ONLY & PORT 1194
 ✅ SSH WEBSOCKET SLOWDNS 53/5300<br>
 ✅ XRAY VMESS WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ XRAY VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
