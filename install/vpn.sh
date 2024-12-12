@@ -1,5 +1,3 @@
-#wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
 OS=`uname -m`;
@@ -16,7 +14,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/${GitUser}/sapphire/main/vpn.zip
+wget https://scvpsv2.malayaacx.my.id/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
