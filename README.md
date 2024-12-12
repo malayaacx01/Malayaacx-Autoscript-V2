@@ -56,7 +56,7 @@ apt update && apt upgrade -y && apt install build-essential -y && apt-get instal
 ♦️ Installation Link - Choose WARP IPv6 Only <br>
 
   ```html
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh 6
+wget -N https://scvpsv2.malayaacx.my.id && chmod +x Install-Autoscript-WARP.sh && bash Install-Autoscript-WARP.sh
   ```
 ♦️ Script Link Download - Crontab By Malayaacx01 Shop | Script Premium For V2 Just Copy Script & Paste to VPS And Enter, Please Check sudo nano /etc/crontab to inside or not <br>
 
