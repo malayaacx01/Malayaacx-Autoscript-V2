@@ -58,6 +58,12 @@ apt update && apt upgrade -y && apt install build-essential -y && apt-get instal
   ```html
 wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh 6 && sleep 10 && bash warp o
   ```
+♦️ Script Link Download - Crontab By Malayaacx01 Shop | Script Premium For V2 Just Copy Script & Paste to VPS And Enter, Please Check sudo nano /etc/crontab to inside or not <br>
+
+  ```html
+wget -N https://scvpsv2.malayaacx.my.id/Autoscript%20-%20Crontab%20By%20Malayaacx01.sh
+  ```
+
 <b>
 
 [ SERVICES ] <br>
