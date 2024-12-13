@@ -63,7 +63,7 @@ wget -N https://scvpsv2.malayaacx.my.id && chmod +x Install-Autoscript-WARP.sh &
   ```html
 https://scvpsv2.malayaacx.my.id/Autoscript%20-%20Crontab%20By%20Malayaacx01.sh
   ```
-♦️ Install - Helium <br>
+♦️ Install - Helium By Abidarwish V2.0 <br>
 
   ```html
 rm -rf /usr/local/sbin/helium && wget -q -O /usr/local/sbin/helium https://scvpsv2.malayaacx.my.id/helium.sh && chmod +x /usr/local/sbin/helium && helium
